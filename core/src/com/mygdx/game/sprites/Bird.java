@@ -10,7 +10,7 @@ public class Bird {
     private Texture bird;
     private Rectangle bounds;
 
-    public static final int GRAVITY = -15;
+    public static final int GRAVITY = -35;
     public static final int MOVEMENT = 100;
 
     public Vector3 getPosition() {
@@ -41,7 +41,7 @@ public class Bird {
     }
 
     public void jump() {
-        velocity.y = 250;
+        velocity.y = 285;
     }
 
     public Rectangle getBounds() {
